@@ -1,0 +1,12 @@
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+@media only screen and (max-width: 580px) {
+  .recipe-list {
+    display: block;
+  }
+
+}
